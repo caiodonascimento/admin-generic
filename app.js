@@ -1,9 +1,9 @@
-angular.module('adminGeneric', ['ui.bootstrap','ui.utils','ui.router','ngAnimate']);
+angular.module('adminGeneric', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'login']);
 
 angular.module('adminGeneric').config(function($stateProvider, $urlRouterProvider) {
-
-    /* Add New States Above */
-    $urlRouterProvider.otherwise('/home');
+	
+	/* Add New States Above */
+    $urlRouterProvider.otherwise('/login');
 
 });
 
