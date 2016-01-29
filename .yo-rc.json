@@ -23,6 +23,14 @@
       {
         "name": "login",
         "file": "login\\login.js"
+      },
+      {
+        "name": "profile",
+        "file": "profile\\profile.js"
+      },
+      {
+        "name": "dashboard",
+        "file": "dashboard\\dashboard.js"
       }
     ]
   }

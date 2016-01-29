@@ -1,4 +1,4 @@
-angular.module('adminGeneric', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'login']);
+angular.module('adminGeneric', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'login', 'profile', 'dashboard']);
 
 angular.module('adminGeneric').config(function($stateProvider, $urlRouterProvider) {
 	

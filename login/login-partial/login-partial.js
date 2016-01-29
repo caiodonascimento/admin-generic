@@ -4,6 +4,10 @@ angular.module('login').controller('LoginPartialCtrl',function($scope){
 		identity: '',
 		key: ''
 	};
-	
+
 	$scope.remember = false;
+
+    $scope.login = function() {
+        console.log($scope.user);
+    };
 });
