@@ -8,7 +8,6 @@ angular.module('adminGeneric').config(function($stateProvider, $urlRouterProvide
 });
 
 angular.module('adminGeneric').run(function($rootScope) {
-
     $rootScope.safeApply = function(fn) {
         var phase = $rootScope.$$phase;
         if (phase === '$apply' || phase === '$digest') {
@@ -19,5 +18,4 @@ angular.module('adminGeneric').run(function($rootScope) {
             this.$apply(fn);
         }
     };
-
 });
